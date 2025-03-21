@@ -1,0 +1,30 @@
+[
+    {
+        "Name": "CloudLabs Test",
+        "Language": "English",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/manavdakshini/CloudLabs/main/GettingStarted.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/manavdakshini/CloudLabs/main/CreateEC2.md",
+                "Order": 2
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/manavdakshini/CloudLabs/main/creates3.md",
+                "Order": 3,
+                "UnlockingRules": [
+                    {
+                        "UnlockDependency": "Validations",
+                        "UnlockCriteria": "Execution",
+                        "DependentValidations": [
+                            "e1be5993-a3d8-46f5-87de-c82ba20c8359",
+                            "037c04ec-fd7d-450f-b159-a75f54a700ab"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
